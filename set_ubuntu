@@ -1,0 +1,17 @@
+# set user
+```
+adduser username
+usermod -aG sudo username
+```
+
+# set python
+```
+sudo apt install libssl-dev
+sudo apt install libsqlite3-dev
+```
+
+
+sudo apt install software-properties-common -y
+sudo add-repository ppa:max-c-lv/shadowsocks-libev -y
+sudo apt update
+```
