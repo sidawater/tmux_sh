@@ -10,7 +10,20 @@ sudo apt install libssl-dev
 sudo apt install libsqlite3-dev
 ```
 
+# set python env
+```
+sudo pip3 install virtualenv
+sudo pip install virtualenvwrapper
 
+# virtualenv
+VIRTUALENVWRAPPER_PYTHON='/usr/bin/python3'
+source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=$HOME/.virtualenvs
+
+```
+
+
+```
 sudo apt install software-properties-common -y
 sudo add-repository ppa:max-c-lv/shadowsocks-libev -y
 sudo apt update
